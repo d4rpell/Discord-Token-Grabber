@@ -25,7 +25,7 @@ WEBHOOK_URL  = webhook_message
 PING = True
 
 if (os.name != "nt"):
-    print("Error, system are not windows")
+    print("Error, system is not windows")
     sys.exit(1)
 else:
    pass
